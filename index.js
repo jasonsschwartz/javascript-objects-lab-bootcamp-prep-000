@@ -4,9 +4,9 @@ var newObj = new Object()
 function updateObjectWithKeyAndValue(object, key, value){
   //object[key] = value
   newObj = Object.assign({}, object)
-  object[key] = value
+  //object[key] = value
   newObj[key] = value
-  return newObj, object
+  return newObj
 }
 
 //function updateObjectWithKeyAndValue(object, key, value){
